@@ -1,0 +1,99 @@
+body {
+    background: #272829;
+    color: white;
+    margin :0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 700px;
+}
+
+.center {
+    background: #272829;
+    text-align:center;
+}
+
+#container {
+    margin-top:5px;
+    background: #434446;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 0%;
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-size :3em;
+    margin:10px;
+    padding-bottom: 20px;
+}
+input {
+    width:50%;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:none;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+button {
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 20px;
+    background-color: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3d6327;
+}
+
+ul {
+    margin-top: 10px;
+    margin-left: 10px;
+    list-style:none;
+    padding-left: 0px;
+    margin-top:20px;
+}
+
+li {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    font-size: 1.25em;
+    border-radius: 10px;
+
+    /* */
+}
+.done .item {
+    text-decoration-color:black;
+    text-decoration: line-through; 
+}
+
+li:hover {
+    width:96%;
+    background: rgba(0,0,0,0.25);
+}
+
+a {
+    color: #5f9341;
+}
+
+.check {
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#cross {
+    
+    cursor: pointer;
+}
